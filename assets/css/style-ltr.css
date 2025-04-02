@@ -1,0 +1,82 @@
+/* https://alfy.me/2014/07/26/lets-talk-about-rtl.html */
+
+body[dir=ltr] {
+    font-family: "Open Sans", sans-serif !important;
+    text-align: left !important;
+}
+
+[dir="ltr"] .mst-left {
+    float: left !important;
+}
+
+[dir="ltr"] .mst-right {
+    float: right !important;
+}
+
+[dir="ltr"] .mst-ar {
+    display: none !important;
+}
+
+/* [dir="ltr"] .mst-text-align-left {
+    text-align: left !important;
+}
+
+[dir="ltr"] .mst-text-align-right {
+    text-align: right !important;
+}
+
+[dir="ltr"] .mst-dir {
+    text-align: left !important;
+} */
+
+
+[dir="ltr"] .topbar-contents {
+    float: left;
+}
+
+[dir="ltr"] #topbar .contact-info .fa-phone {
+    margin-left: 20px;
+}
+
+[dir="ltr"] .nav-menu>ul>li {
+    float: left;
+}
+
+
+/*----------------------------<Mobile Header>----------------------------------*/
+[dir="ltr"] .mobile-logo {
+    right: 15px;
+}
+
+[dir="ltr"] .mobile-nav-toggle {
+    left: 15px;
+}
+
+[dir="ltr"] .mobile-nav {
+    right: -180px;
+    left: auto;
+}
+
+.mobile-nav-active[dir=ltr] .mobile-nav {
+    right: 0;
+    left: auto;
+}
+/*----------------------------</Mobile Header>----------------------------------*/
+
+
+
+[dir="ltr"] .about .section-title p {
+    text-align: left;
+}
+
+[dir="ltr"] .about .icon-box .icon {
+    float: left;
+}
+
+[dir="ltr"] .about .icon-box .title {
+    margin-left: 95px;
+}
+
+[dir="ltr"] .about .icon-box .description {
+    margin-left: 95px;
+}
