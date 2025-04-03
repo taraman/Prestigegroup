@@ -106,7 +106,13 @@
 		this_form.find('.error-message').slideUp();
 		this_form.find('.loading').slideDown();
 
-		SendContactUsEmail(this_form);
+
+
+		//SendContactUsEmail(this_form);
+		//fake submit
+		this_form.find('.loading').slideUp();
+
+
 
 		//if ($(this).data('recaptcha-site-key')) {
 		//    var recaptcha_site_key = $(this).data('recaptcha-site-key');
